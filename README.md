@@ -20,5 +20,5 @@ Analyze your GitHub repositories with health scores, commit insights, and code q
 
 ### 1. Clone the repo  
 ```bash
-git clone https://github.com/your-username/gitmetrics.git
+git clone https://github.com/jit02git/gitmetrics.git
 cd gitmetrics
