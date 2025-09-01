@@ -1,40 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📊 GitMetrics  
 
-## Getting Started
+Analyze your GitHub repositories with health scores, commit insights, and code quality metrics.  
 
-First, run the development server:
+## ✨ Features  
+- ✅ **Repo Health Check** – Detects README, LICENSE, .gitignore, contributing guide  
+- 📦 **Dependency Analysis** – Flags outdated or vulnerable dependencies  
+- 📝 **Commit Insights** – Checks commit message quality & contributor activity  
+- 🔒 **Security Scan** – Finds secrets or exposed API keys in your repo  
+- 📊 **Visual Dashboard** – Charts for commits, issues, and PR activity  
 
+## 🛠️ Tech Stack  
+- **Frontend:** React.js / Next.js + TailwindCSS  
+- **Backend:** Node.js + Express  
+- **Database:** MongoDB (optional, for storing analysis history)  
+- **API:** GitHub REST API / GraphQL API  
+- **Charts:** Recharts / Chart.js  
+
+## 🚀 Getting Started  
+
+### 1. Clone the repo  
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/gitmetrics.git
+cd gitmetrics
